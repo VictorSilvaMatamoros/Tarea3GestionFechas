@@ -7,8 +7,7 @@ let h1Element = document.querySelector('h1');
 let CuentaAtrasContainer = document.querySelector('.CuentaAtras');
 //creamos las dos fechas que vamos a comparar en  el resto del js
 let fechaActual= new Date();
-const fechaObjetivo= new Date(2024, 3, 29, 20, 49);
-
+const fechaObjetivo= new Date(2024, 4, 30, 20, 49);
 
 let totalDias;
 let totalHoras;
