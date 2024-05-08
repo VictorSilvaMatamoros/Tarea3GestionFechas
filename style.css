@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round';
+	background: rgb(30, 11, 65);
+	color: white;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.CuentaAtras {
+	display: flex;
+}
+
+.CuentaAtras div {
+	text-align: center;
+}
+
+.CuentaAtras p {
+	font-size: 2rem;
+	text-shadow: 2px 2px #4e53ff;
+	margin: 0 5vw;
+}
+
+.CuentaAtras span {
+	font-size: 1rem;
+	text-shadow: 2px 2px #4e53ff;
+}
